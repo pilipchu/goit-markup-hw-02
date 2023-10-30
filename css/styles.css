@@ -31,7 +31,7 @@ body {
         text-decoration: none;
 }
 
-.studio:hover, .studio:active {
+.studio:hover, .studio:active, .studio:focus {
     color: #404BBF;
     font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -41,7 +41,7 @@ body {
         letter-spacing: 0.32px;
 }
 
-.portfolio:hover, .contacts:hover {
+.portfolio:hover, .contacts:hover, .portfolio:focus, .contacts:focus {
     color: #404BBF;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -49,6 +49,10 @@ body {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.32px;
+}
+
+.address {
+font-style: normal;
 }
 
 .email, .telefon {
@@ -75,7 +79,7 @@ body {
 .first-sector {
     background-color: #2e2f42;
 }
-h1 {
+.head {
     font-family: "Roboto", sans-serif;
         font-size: 56px;
         font-style: normal;
@@ -155,7 +159,7 @@ font-family: "Roboto", sans-serif;
         text-transform: capitalize;
 }
 
-.link-team{
+.name {
     background-color: #FFFFFF;
 }
 
@@ -195,19 +199,38 @@ color: #2E2F42;
         letter-spacing: 0.4px;
         text-align: center;
 }
+
 .link-portfolio{
     background-color: #FFFFFF;
 }
+
 .portfolio-titel{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2E2F42;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
+
 .text-portfolio {
     color: #434455;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+     
+        letter-spacing: 0.32px;
+}
+
+.footer{
+background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -216,12 +239,13 @@ color: #2E2F42;
         letter-spacing: 0.32px;
 }
 
-.footer-text {
-    color: var(--CLOUD, #F4F4FD);
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+.titel-studio {
+color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
