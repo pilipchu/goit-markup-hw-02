@@ -58,7 +58,7 @@ font-style: normal;
         text-decoration: none;
 }
 
-.telefon:hover, .email:hover, .telefon:focus, .email:focus {
+.telefon:hover, .email:hover, .telefon:focus, .email:focus, .telefon:active, .email:active {
     font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
