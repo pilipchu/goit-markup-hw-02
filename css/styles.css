@@ -20,7 +20,7 @@ body {
     color: #2e2f42;
 }
 
-.studio, .portfolio, .contacts {
+.studio {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -30,10 +30,48 @@ body {
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+.portfolio {
+    color: #2E2F42;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+}
 
-.portfolio:hover, .contacts:hover, .portfolio:focus, .contacts:focus, .portfolio:active, .contacts:active, .studio:hover,
-.studio:active,
-.studio:focus {
+.contacts{
+    color: #2E2F42;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+}
+
+.portfolio:hover, .portfolio:focus, .portfolio:active {
+    color: #404BBF;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+.contacts:hover, .contacts:focus, .contacts:active {
+    color: #404BBF;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.studio:hover, .studio:active, .studio:focus {
     color: #404BBF;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -47,7 +85,7 @@ body {
 font-style: normal;
 }
 
-.email, .telefon {
+.email {
     color: #434455;
     font-family: "Roboto", sans-serif ;
         font-size: 16px;
@@ -58,7 +96,18 @@ font-style: normal;
         text-decoration: none;
 }
 
-.telefon:hover, .email:hover, .telefon:focus, .email:focus, .telefon:active, .email:active {
+.telefon {
+    color: #434455;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+}
+
+.telefon:hover, .telefon:focus, .telefon:active {
     font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -68,6 +117,15 @@ font-style: normal;
         color: #404BBF;
 }
 
+.email:hover, .email:focus, .email:active {
+    font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #404BBF;
+}
 .first-sector {
     background-color: #2e2f42;
 }
