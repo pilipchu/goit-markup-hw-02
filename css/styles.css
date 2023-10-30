@@ -31,17 +31,9 @@ body {
         text-decoration: none;
 }
 
-.studio:hover, .studio:active, .studio:focus {
-    color: #404BBF;
-    font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-}
-
-.portfolio:hover, .contacts:hover, .portfolio:focus, .contacts:focus {
+.portfolio:hover, .contacts:hover, .portfolio:focus, .contacts:focus, .portfolio:active, .contacts:active, .studio:hover,
+.studio:active,
+.studio:focus {
     color: #404BBF;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -138,6 +130,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .team {
+    color: #2e2f42;
     font-family: "Roboto", sans-serif;
     text-align: center;
         font-size: 36px;
@@ -178,8 +171,8 @@ color: #2E2F42;
     background-color: #fff;
 }
 
-.portfolio-text {
-    color: #2E2F42;
+.portfolio-our {
+        color: #2e2f42;
         text-align: center;
         font-family: "Roboto", sans-serif;
         font-size: 36px;
