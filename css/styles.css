@@ -4,7 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.title, .titel-lo {
+.title, .titel-logo {
     color: var(--NAVY-BLUE, #2E2F42);
             font-family: Raleway;
             font-size: 18px;
@@ -14,6 +14,7 @@ body {
             /* 116.667% */
             letter-spacing: 0.54px;
             text-transform: uppercase;
+            text-decoration: none;
 }
 
 .titel-logo {
