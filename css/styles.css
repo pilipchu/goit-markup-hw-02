@@ -170,29 +170,44 @@ color: #2E2F42;
     letter-spacing: 0.4px;
 }
 
-.name p {
-    color: var(--SLATE, #434455);
+.work {
+    color: #434455;
         text-align: center;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
-.portfolio h3 {
-    color: var(--NAVY-BLUE, #2E2F42);
+.section-portfolio{
+    background-color: #F4F4FD;
+}
+
+.portfolio{
+    color: #2E2F42;
         font-family: "Roboto", sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.11;
         letter-spacing: 0.4px;
+        text-align: center;
 }
-
-.portfolio p {
-    color: var(--SLATE, #434455);
+.link-portfolio{
+    background-color: #FFFFFF;
+}
+.portfolio-titel{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.text-portfolio {
+    color: #434455;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
